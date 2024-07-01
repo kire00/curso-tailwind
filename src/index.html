@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/tailwind.css">
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-800">
+  <h1 class="text-sm text-gray-500">Hello world! </h1>
+  <h1 class="text-base text-red-800">Hello world! </h1>
+  <h1 class="text-lg text-yellow-400">Hello world! </h1>
+  <h1 class="text-xl tracking-widest">Hello world! </h1>
+  <h1 class="text-2xl font-black">Hello world! </h1>
+
+    <div class="p-4 m-4"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem libero amet, sequi accusamus voluptatum expedita architecto praesentium odio sunt nemo quam unde eum eius harum, explicabo, aliquid est excepturi adipisci.
+    </div>
+
+    <div class="m-4 space-y-4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <div class="m-5 p-4 border-l-2 border-orange-400">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat corrupti blanditiis, sed voluptatibus omnis pariatur, voluptas architecto beatae mollitia esse ab officiis ut, qui molestiae vel hic nisi cumque.
+    </div>
+
+    <div class="m-5 p-4 border-2 border-blue-400 rounded-lg border-opacity-70">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat corrupti blanditiis, sed voluptatibus omnis pariatur, voluptas architecto beatae mollitia esse ab officiis ut, qui molestiae vel hic nisi cumque.
+        
+        <br>
+        
+        <button class="bg-blue-400 px-4 py-2 rounded text-white ring4">Save</button>
+    </div>
+
+    <div class="m-5 p-4 text-white bg-gradient-to-bl from-purple-400 via-red-500 to-blue-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat corrupti blanditiis, sed voluptatibus omnis pariatur, voluptas architecto beatae mollitia esse ab officiis ut, qui molestiae vel hic nisi cumque.
+    </div>
+
+    <div class="m-5 p-4 text-white bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat corrupti blanditiis, sed voluptatibus omnis pariatur, voluptas architecto beatae mollitia esse ab officiis ut, qui molestiae vel hic nisi cumque.
+        <br>
+    </div>
+
+    <div class="flex justify-center items-center space-x-4 bg-gray-300 h-36">
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-bl from-green-500 via-blue-500 to-purple-500"></div>
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-bl from-green-500 via-blue-500 to-purple-500"></div>
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-bl from-green-500 via-blue-500 to-purple-500"></div>
+    </div>
+    <br>
+
+    <div class="flex justify-center items-center space-x-4 bg-gray-300 h-36">
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-bl from-green-500 via-blue-500 to-purple-500"></div>
+        <div class="flex-grow flex-shrink-0 w-24 h-24 p-4 text-white bg-gradient-to-bl from-green-500 via-blue-500 to-purple-500"></div>
+        <div class="w-24 h-24 p-4 text-white bg-gradient-to-bl from-green-500 via-blue-500 to-purple-500"></div>
+    </div>
+    <br>
+
+    <div class="grid grid-cols-9 gap-4 bg-gray-300 h-36">
+        <div class="col-span-3 p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="col-span-3 p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="col-span-2 p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+        <div class="p-4 text-white bg-gradient-to-bl from-yellow-500 via-orange-500 to-green-500"></div>
+    </div>
+    <br>
+
+    <h2 class="text-sm sm:text-base md:text-xl lg:text-2xl">
+        Hello TailwindCSS - Responsividade
+    </h2>
+    <div class="bg-blue-300 sm:bg-red-300 w-24 h-24 p-4 text-white"></div>
+    <br>
+
+    <h2 class="text-gray-300 hover:text-blue-800 hover:underline">
+        Hello TailwindCSS - Estados hover,focus,etc
+    </h2>
+    <div class="group w-72 bg-gray-300 p-4">
+        <h3 class="font-bold group-hover:text-red-600">Título do meu card</h3>
+        <p class="text-gray-500 group-hover:text-red-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <br>
+    <input 
+        type="text"
+        class="bg-black hover:bg-gray-300 text-lg px-4 py-2 focus:text-black-300"
+    >
+    <br>
+    <br>
+
+    <h2 class="text-sm text-brand-300 sm:text-base md:text-xl lg:text-2xl">
+        Arquivo de configuração - Brand
+    </h2>
+    <br>
+
+    <div class="group w-72 bg-brand-200 dark:bg-white p-4">
+        <h3 class="font-bold group-hover:text-blue-600">Dark Mode</h3>
+        <p class="text-white-500 group-hover:text-blue-600 text-sm">Colocar o class="dark" no html. </p>
+    </div>
+    <br>
+
+    <div class="container mx-auto px-4 py-8 ">
+        <h3 class="font-bold mb-2 dark:text-gray-50">Componente Card</h3>
+
+        <div class="bg-white dark:bg-gray-500 rounded-lg shadow-md overflow-hidden">
+            <div class="w-full bg-gray-200 dark:bg-gray-900 p-4 border-t border-gray-300 dark:border-gray-500">
+                
+                <h4 class="font-bold dark:text-gray-50">Título do Card</h4>
+            </div>
+
+            <div class="p-4 dark:text-gray-50 ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vel reprehenderit vitae totam autem, incidunt, maiores consequatur dignissimos quaerat aliquid, saepe natus eum magni? Dolore velit vero consectetur ratione eum.
+            </div>
+
+            <div class="w-full dark:text-gray-50 bg-gray-50 dark:bg-gray-700 p-4 border-b border-gray-100">
+                Rodapé
+            </div>
+    </div>
+    <br>
+
+    <div class="container mx-auto px-4 py-8 space-y-6 ">
+        <h3 class="font-bold mb-2 dark:text-gray-50">Componente Button</h3>
+            <button class="text-sm bg-orange-400 hover:bg-orange-600 px-4 py-1 rounded text-black shadow">
+                Save
+            </button>
+
+            <button class="text-sm bg-orange-400 hover:bg-orange-600 px-6 py-1 rounded text-black shadow">
+                Erik
+            </button>
+        
+            <button class="text-base bg-orange-400 hover:bg-orange-600 px-8 py-3 rounded text-black shadow">
+                Sofia
+            </button>
+    </div>
+    <br>
+
+    <div class="container mx-auto px-4 py-8 space-y-8 ">
+        <div>
+            <h3 class="font-bold mb-2 dark:text-gray-50">Componente Badge/Tag</h3>
+            <div class="mb-2">
+                <div class="inline-flex item-center text-sm bg-green-400 px-1.5 py-0.5 rounded-md text-green-800 font-medium">
+                    Ativo
+                </div>
+
+                <div class="inline-flex item-center text-sm bg-green-400 px-1.5 py-0.5 rounded-full text-green-800 font-medium">
+                    Ativo
+                 </div>
+            </div>
+
+            <div class="mb-2">
+                <div class="inline-flex item-center text-sm bg-red-400 px-1.5 py-0.5 rounded-md text-red-800 font-medium">
+                    Inativo
+                </div>
+
+                <div class="inline-flex item-center text-sm bg-red-400 px-1.5 py-0.5 rounded-full text-red-800 font-medium">
+                    Inativo
+                 </div>
+            </div>
+
+            <div>
+                <div class="inline-flex item-center text-sm bg-yellow-400 px-1.5 py-0.5 rounded-md text-yellow-800 font-medium">
+                    Em Progresso
+                </div>
+
+                <div class="inline-flex item-center text-sm bg-yellow-400 px-1.5 py-0.5 rounded-full text-yellow-800 font-medium">
+                    Em Progresso
+                 </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container mx-auto px-4 py-8 space-y-6 ">
+        <div>
+            <h3 class="font-bold mb-2 dark:text-gray-50">Componente Input</h3>
+            <div class="space-y-4">
+                <input 
+                type="text" 
+                placeholder="Digite seu nome"
+                class="w-full bg-gray-50 border border-gray-300 focus:border-blue-300 rounded px-2 py-1 text-sm text-gray-800 placeholder-gray-300 focus:outline-none"
+                >
+
+                <input 
+                type="text" 
+                placeholder="Digite seu nome"
+                class="w-full bg-gray-50 border border-gray-300 focus:border-blue-300 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus:outline-none"
+                >
+
+                <input 
+                type="text" 
+                placeholder="Digite seu nome"
+                class="w-full bg-gray-50 border border-gray-300 focus:border-blue-300 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-20 rounded px-3 py-3 text-lg text-gray-800 placeholder-gray-300 focus:outline-none"
+                >
+
+                <input 
+                type="text" 
+                placeholder="Digite seu nome com transition"
+                class="w-full bg-gray-50 border border-gray-300 focus:border-blue-300 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-20 rounded px-3 py-3 text-lg text-gray-800 placeholder-gray-300 focus:outline-none transition duration-500 ease-in-out"
+                >
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container mx-auto px-4 py-8 space-y-6 ">
+        <div>
+            <h3 class="font-bold mb-2 dark:text-gray-50">Componente Dropdown</h3>
+            <div class="relative">
+                <button class="flex items-center bg-white border border-gray-300 focus:border-blue-300 rounded px-3 py-1 text-sm text-gray-800 placeholder-gray-300 focus:outline-none shadow">
+                    Botão
+                    <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                      </svg>
+                      
+                </button>
+                <div 
+                    class="absoute bg-white border border-gray-200 py-1 shadow-md rounded"
+                    style="width: 200px;"
+                >   
+                    <a 
+                    href=""
+                    class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300"
+                    >Link 1</a>
+
+                    <a 
+                    href=""
+                    class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300"
+                    >Link 2</a>
+
+                    <a 
+                    href=""
+                    class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300"
+                    >Link 3</a>
+
+                    <a 
+                    href=""
+                    class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300"
+                    >Link 4</a>
+
+                    <a 
+                    href=""
+                    class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300"
+                    >Link 5</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+</body>
+
+</html>
